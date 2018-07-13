@@ -11,7 +11,7 @@ int main()
     {
         for(i=1;i<=n;i++)
             fact*=i;
-        printf("factorial of %d=%d\n",n,fact);
+        printf("factorial of %d=%ld\n",n,fact);
     }
 
 }
